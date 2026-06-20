@@ -1,0 +1,29 @@
+# Secrets - never commit these
+*.key
+*.pem
+*.crt
+*_qr.png
+duckdns/config/
+.env
+*.token
+
+# WireGuard configs contain private keys
+wg0.conf
+*.conf
+!docker-compose.example.yml
+
+# OpenTAKServer database and certs
+ots.db
+ots/ca/
+ots/certs/
+
+# Let's Encrypt
+letsencrypt/
+
+# OS / editor junk
+.DS_Store
+*.swp
+*~
+
+# Logs
+*.log
