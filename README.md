@@ -105,3 +105,6 @@ See [`.gitignore`](.gitignore) for the full list. The `docker-compose.yml` in th
 ## License
 
 MIT — do whatever you want with this, just don't blame me if you misconfigure your firewall and lock yourself out. (Ask me how I know to back up your WireGuard config before testing changes.)
+
+> **Security design & testing:** for the threat model, attack-surface reasoning,
+> testing methodology, and honest limitations, see [docs/SECURITY.md](docs/SECURITY.md).
